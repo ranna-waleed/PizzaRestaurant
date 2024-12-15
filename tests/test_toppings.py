@@ -4,8 +4,8 @@ import unittest
 
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '../src')))
 
-from pizza import Margherita
-from toppings import Cheese, Olives, Mushrooms
+from src.pizza import Margherita
+from src.toppings import Cheese, Olives, Mushrooms
 
 class TestToppings(unittest.TestCase):
     def test_cheese(self):
